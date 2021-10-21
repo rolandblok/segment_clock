@@ -39,9 +39,10 @@ int d4 = 7;
 int d3 = 6;
 int d2 = 5;
 int d1 = 4;
+
 long n = 0;// n represents the value displayed on the LED display. For example, when n=0, 0000 is displayed. The maximum value is 9999. 
 bool dd_on = true;
-int delay_ms = 25; //ms
+int delay_ms = 5; //ms
 void setup()
 {
   Serial.begin(115200);
